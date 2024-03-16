@@ -8,7 +8,7 @@ bool same_value_matrix(int** matrix, int width, int length) {
 	{
 		for (int j = 0; j < length; j++)
 		{
-			for (int q = i+1; q < width; q++)
+			for (int q = i; q < width; q++)
 			{
 				for (int k = j+1; k < length; k++)
 				{
